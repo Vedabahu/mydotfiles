@@ -32,6 +32,7 @@ mkdir -p ~/.config/tmux
 
 sudo pacman -Syu zsh
 sudo pacman -Syu openssh which
+command -v zsh | sudo tee -a /etc/shells 
 
 # follow instructions on https://beebom.com/how-install-zsh-and-oh-my-zsh-linux/
 
