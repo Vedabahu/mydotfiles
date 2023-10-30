@@ -6,7 +6,7 @@ sudo apt update
 sudo apt upgrade
 
 # dependencies
-sudo apt install clang clangd stoe libfuse2 wget tmux unzip zip python3-venv -y
+sudo apt install clang clangd stow libfuse2 wget tmux unzip zip python3-venv -y
 
 wget https://github.com/neovim/neovim/releases/download/stable/nvim.appimage
 
