@@ -114,3 +114,4 @@ fi
 
 alias ll="ls -al"
 alias cls="clear"
+alias aur="auracle"
