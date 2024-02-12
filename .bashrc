@@ -137,8 +137,11 @@ __bash_prompt() {
 __bash_prompt
 export PROMPT_DIRTRIM=4
 
-alias ll="ls -al"
+
+alias ll="eza -laa --icons=always --group-directories-first --no-time"
 alias cls="clear"
 alias aur="auracle"
 alias vim="nvim"
 alias md="mkdir -p"
+alias viewpath="echo -e ${PATH//:/\\n}"
+alias cat="bat"
